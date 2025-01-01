@@ -1,8 +1,7 @@
 #!/bin/bash
 # Update system and install dependencies
-sudo yum update -y
-sudo amazon-linux-extras enable python3.8
-sudo yum install python3.8 -y
+sudo apt update -y
+sudo apt install python3.8 -y
 sudo pip3 install flask boto3
 
 # copy the app code
