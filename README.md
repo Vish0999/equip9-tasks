@@ -85,7 +85,7 @@ appropriate AWS service).
 22. for this use command ( pip install package-name ).
 23. after that write python code. In this file app.py import all packages like (Boto3, flask, jsionify, dotenv).
 24. after that define and configure S3 bucket details like Bucket-name, Access-key, Secrete-Access-key, region.).
-25. After that write a python function to call GET method which display or return S3 bucket data in jsion format.
+25. After that write a python function to call GET method which display or return S3 bucket data in JSON format.
 26. After that, At the end of this file define the PORT in which you wan to run your application app.py .
 
 
@@ -168,7 +168,7 @@ https://drive.google.com/file/d/1HHro4qdsLpjsyx-zV9TO4ltsZTgtIWhy/view?usp=shari
 
 
 46. after that copy this ip address and paste it with application port number on browser.(13.60.84.215:8000).
-47. after that it will return similar output of first task in jsion format.
+47. after that it will return similar output of first task in JSON format.
 
     ![Ec2-ip-output](https://github.com/user-attachments/assets/8410eab3-dd03-4802-9d22-5276bcdc055e)
 
