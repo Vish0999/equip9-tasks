@@ -123,6 +123,67 @@ appropriate AWS service).
 
 
 
+*********************************************************************************************************************************************************************************************************************************************
+
+
+32. Now its time to complete 2nd task.
+33. for this task create folder (2nd-Task).
+34. In this folder add app.py file which you was created in first task.
+35. now first open git bash and generate ssh public key (developer-key) cy using ssh-keygen command.
+
+
+    ![Screenshot 2025-01-01 063551](https://github.com/user-attachments/assets/43cb0556-1121-4426-a75e-a8610f94c484)
+
+
+
+36. after that copy developer-key and developer-key.pub and in 2nd-Task folder.
+37. after that for aws configuration create .env file in this file define Access and Secret key.
+38. after that create files like ec2_userdata.sh, main.tf, and variable.tf.
+39. So, in variables.tf file define all variables.
+40. after that in main.tf file create security group in this open 8000 port on both inbound and outbound rule.
+41. after that write a terraform code to create ec2 instance in this provide path of file ec2_userdata.sh for user_data keyword which you was declare in aws_instance.
+42. after that in ec2_userdata.sh file  write all linux command and shell script for installing packages in ec2-instance like python3, boto3, flask, etc.
+43. after successfully written terraform and python code . run the terraform commands to deploy virtual machine.
+44. terraform command already mentioned in first task copy it.
+45. when successfully deploying VM it gives you public ip address.
+
+
+    ![ec2-terraform-code](https://github.com/user-attachments/assets/cc110f1e-ade0-4e0c-bdd5-ff4da637542e)
+
+
+
+
+    ![HTTP-server](https://github.com/user-attachments/assets/2bddb17b-2653-4120-bd8d-29bb2e8c162b)
+
+
+46. after that copy this ip address and paste it with application port number on browser.(13.60.84.215:8000).
+47. after that it will return similar output of first task in jsion format.
+
+    ![Ec2-ip-output](https://github.com/user-attachments/assets/8410eab3-dd03-4802-9d22-5276bcdc055e)
+
+
+
+
+
+
+*********************************************************************************************************************************************************************************************************************************************
+
+*so task was successfully completed.*
+
+*Thanks.....*
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
